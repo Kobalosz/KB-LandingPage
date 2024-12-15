@@ -4,26 +4,74 @@ body{
     align-items: center;
     justify-content: space-between;
     margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
 }
+
 .section1{
     display: flex;
     flex-direction: column;
-    background-color: antiquewhite;
+    background-color: #823329;
+    border-radius: 20px;
 }
+
 .header{
     display: flex;
-    background-color: salmon;
     align-items: center;
-    justify-content: space-between;
-    padding: 10px 90px;
+    justify-content: space-around;
+    flex-basis: auto;
+    padding: 5px 90px;
+    background-color: white;
+    gap: 100px;
+}
+.navbar-brand{
+    text-decoration: none;
+    font-weight: bolder;
+    color: white;
+    width: fit-content;
+    height: fit-content;
+
+}
+.navbar-brand img{
+    height: 60px;
+    width: 120px;
 }
 .nav{
     display: flex;
     justify-content: space-evenly;
-    gap: 10px;
+    gap: 25px;
+
+}
+.nav a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: larger;
+    color: #998888;
+    flex-shrink: 0;
 }
 
 .content1{
     display: flex;
-
+    align-items: center;
+    padding: 50px;
+    gap: 12px;
+}
+.c1-text{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: baseline;
+}
+.c1-subtitle{
+    color: white;
+    font-size: x-large;
+}
+.c1-slogan{
+    color: white;
+    font-size: small;
+}
+.c1-text p{
+    color: white;
+    font-size: x-small;
+}
+.c1-image img{
+    width: 300px;
 }
