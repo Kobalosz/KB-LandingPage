@@ -4,6 +4,7 @@ body{
     align-items: center;
     justify-content: space-between;
     margin: 0px;
+    padding: 0px;
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -17,10 +18,10 @@ body{
 .header{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-basis: auto;
     padding: 5px 90px;
-    background-color: white;
+    background-color: aqua;
     gap: 100px;
 }
 .navbar-brand{
@@ -37,7 +38,7 @@ body{
 }
 .nav{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 25px;
 
 }
@@ -45,7 +46,7 @@ body{
     text-decoration: none;
     font-weight: bold;
     font-size: larger;
-    color: #998888;
+    color: #998880;
     flex-shrink: 0;
 }
 
