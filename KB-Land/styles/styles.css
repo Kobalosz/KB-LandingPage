@@ -189,19 +189,31 @@ body{
 }
 .section4{
     display: flex;
+    align-self: stretch;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+    padding: 40px 150px;
+    background-color: aqua;
+
 }
 .c4-card{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    gap: 40px;
+    background-color: #823329;
 }
 .c4-text{
     display: flex;
     flex-direction: column;
+    justify-content: baseline;
+    align-items:  baseline;
+    background-color: azure;
+    outline: auto;
 }
 .c4-button{
-
+    border-radius: 25%;
+    background-color: violet;
 }
